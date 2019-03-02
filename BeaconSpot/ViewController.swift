@@ -111,7 +111,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     
     func locationManager(_ manager: CLLocationManager, didExitRegion region: CLRegion) {
         lblBeaconReport.text = "No beacons in range"
-        lblBeaconDetails.isHidden = true
+        lblBeaconDetails.isHidden = false
     }
     
     
